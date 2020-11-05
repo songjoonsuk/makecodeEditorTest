@@ -1,6 +1,19 @@
 
 > Open this page at [https://songjoonsuk.github.io/makecodeeditortest/](https://songjoonsuk.github.io/makecodeeditortest/)
 
+## Usage
+
+### ``plotAT``
+
+Use the ``plotAt`` block to render LEDs at the indexed location.
+
+```blocks
+for( let i=0; i< 25 ; i++){
+    MagicShow.PlotAt(i)
+    basic.pause(300);
+}    
+```
+
 ## Use as Extension
 
 This repository can be added as an **extension** in MakeCode.
