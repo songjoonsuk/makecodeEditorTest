@@ -2,8 +2,7 @@
     "name": "xx",
     "description": "",
     "dependencies": {
-        "core": "*",
-        "radio": "*"
+        "core": "*"
     },
     "files": [
         "main.ts",
